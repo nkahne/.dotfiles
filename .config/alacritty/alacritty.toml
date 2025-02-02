@@ -35,7 +35,7 @@ decorations_theme_variant = "Dark" # "Light"
 #italic.family = "Noto Sans Regular 10"
 #bold_italic.family = "Noto Sans Regular 10"
 
-size = 5.0
+size = 10.0
 
 [colors]
 
