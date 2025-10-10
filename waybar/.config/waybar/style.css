@@ -66,6 +66,8 @@ button:hover {
 #tray,
 #network,
 #mode,
+#custom-power,
+#tray,
 #scratchpad {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -109,6 +111,16 @@ button:hover {
     border-bottom: 2px solid @green;
 }
 
+#custom-power {
+    color: @teal;
+    border-bottom: 2px solid @teal;
+}
+
+#tray {
+    color: @rosewater;
+    border-bottom: 2px solid @rosewater;
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left>widget:first-child>#workspaces {
     margin-left: 0;
@@ -120,8 +132,6 @@ button:hover {
 }
 
 #custom-vpn {
-    color: @lavender;
-    border-radius: 15px;
-    padding-left: 6px;
-    padding-right: 6px;
+    color: @rosewater;
+    border-bottom: 2px solid @rosewater;
 }
