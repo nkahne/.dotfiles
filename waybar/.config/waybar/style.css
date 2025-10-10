@@ -67,6 +67,7 @@ button:hover {
 #network,
 #mode,
 #custom-power,
+#custom-cava,
 #tray,
 #scratchpad {
   margin-top: 2px;
@@ -114,6 +115,11 @@ button:hover {
 #custom-power {
     color: @teal;
     border-bottom: 2px solid @teal;
+}
+
+#custom-cava {
+    color: @lavender;
+    border-bottom: 2px solid @lavender;
 }
 
 #tray {
