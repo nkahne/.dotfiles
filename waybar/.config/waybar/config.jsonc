@@ -1,6 +1,6 @@
 {
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],//,"custom/cava"],
+  "modules-left": ["hyprland/workspaces", "custom/spotify"],//,"custom/cava"],
   "modules-center": ["hyprland/window"],
   "modules-right": ["network", "pulseaudio", "battery", "clock", "tray", "custom/power"],
   "clock": {
@@ -54,6 +54,12 @@
       "format": "",
       "on-click": "systemctl poweroff",
       "tooltip-format": "Poweroff"
+  },
+  "custom/spotify": {
+      "format": "  {}",
+      "interval": 5,
+      //"on-click": "spotify",
+      "exec": "~/.config/scripts/spotify_waybar.sh"
   },
    // CAVA Audio Visualizer
 //  "custom/cava": {
