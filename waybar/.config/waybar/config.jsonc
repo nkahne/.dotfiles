@@ -40,7 +40,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
     "on-click": "nm-applet",
-    "on-click-right": "nm-connection-editor"
+    "on-click-right": "nmgui"
   },
   "pulseaudio": {
       "format": "{icon}  {volume}%",
