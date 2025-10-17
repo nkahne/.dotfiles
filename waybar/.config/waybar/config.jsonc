@@ -57,7 +57,7 @@
   },
   "custom/spotify": {
       "format": "  {}",
-      "interval": 5,
+      "interval": 2,
       //"on-click": "spotify",
       "exec": "~/.config/scripts/spotify_waybar.sh"
   },
